@@ -114,9 +114,7 @@ function BuildProfile({ setProfiles }) {
     geography: normalize(form.geography),
     discipline: normalize(form.discipline),
     interest: normalize(form.interest),
-    user_id: userData.user.id,
   };
-  
 
   return (
     <div className="build-card">
