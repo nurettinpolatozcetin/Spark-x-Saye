@@ -1,0 +1,123 @@
+.chat-widget {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 999;
+}
+
+.chat-toggle {
+  padding: 14px 20px;
+  border-radius: 999px;
+  border: none;
+  background: #9333ea;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.chat-box {
+  width: 380px;
+  height: 520px;
+  background: #111116;
+  border: 1px solid #3f3f46;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chat-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid #27272a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-header h3 {
+  margin: 0;
+  color: #c084fc;
+  font-size: 18px;
+}
+
+.chat-header button {
+  background: transparent;
+  border: none;
+  color: #a1a1aa;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.chat-messages {
+  flex: 1;
+  min-height: 0;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.chat-empty {
+  color: #71717a;
+}
+
+.chat-message {
+  max-width: 70%;
+  padding: 10px 14px;
+  border-radius: 14px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* SENİN MESAJ */
+.my-message {
+  align-self: flex-end;
+  background: #9333ea;
+  color: white;
+}
+
+/* KARŞI TARAF */
+.other-message {
+  align-self: flex-start;
+  background: #27272a;
+  color: #e4e4e7;
+}
+
+.chat-form {
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  border-top: 1px solid #27272a;
+}
+
+.chat-form input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #3f3f46;
+  background: #18181b;
+  color: white;
+}
+
+.chat-form input::placeholder {
+  color: #71717a;
+}
+
+.chat-form button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 10px;
+  background: #9333ea;
+  color: white;
+  cursor: pointer;
+}
+
+.chat-messages::-webkit-scrollbar {
+  width: 5px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+  background: #3f3f46;
+  border-radius: 999px;
+}

@@ -1,0 +1,77 @@
+.discover-card {
+  background: #111116;
+  border: 1px solid #3f3f46;
+  border-radius: 24px;
+  padding: 40px;
+}
+
+.discover-card h2 {
+  color: #c084fc;
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.discover-card p {
+  color: #a1a1aa;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin: 30px 0;
+}
+
+.filters input {
+  padding: 15px;
+  border-radius: 14px;
+  border: 1px solid #52525b;
+  background: #18181b;
+  color: white;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.profile-card {
+  position: relative;
+  background: #111116;
+  border: 1px solid #3f3f46;
+  border-radius: 20px;
+  padding: 24px;
+  padding-bottom: 70px;
+}
+
+.profile-card span {
+  color: #a78bfa;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.profile-card h3 {
+  margin: 10px 0;
+}
+
+.meta {
+  color: #a1a1aa;
+  font-size: 14px;
+}
+
+.empty {
+  color: #a1a1aa;
+}
+.message-profile-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 12px;
+  background: #9333ea;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

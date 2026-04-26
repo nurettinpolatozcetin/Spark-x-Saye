@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.navbar a {
+  color: #a78bfa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #c084fc;
+}
+.user-email {
+  color: #a1a1aa;
+  font-size: 14px;
+}
+
+.logout-btn {
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: 1px solid #9333ea;
+  background: transparent;
+  color: #c084fc;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #9333ea;
+  color: white;
+}
